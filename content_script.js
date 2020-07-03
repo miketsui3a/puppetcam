@@ -18,6 +18,6 @@ window.onload = () => {
     }
   })
 
-  document.title = 'puppetcam'
-  window.postMessage({ type: 'REC_CLIENT_PLAY', data: { url: window.location.origin } }, '*')
+  // document.title = 'puppetcam'
+  // window.postMessage({ type: 'REC_CLIENT_PLAY', data: { url: window.location.origin } }, '*')
 }
